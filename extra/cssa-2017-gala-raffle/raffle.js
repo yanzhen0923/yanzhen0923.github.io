@@ -23,7 +23,7 @@ function getAWinner(){
 }
 function raffle() {
     if(stop == 0){
-        setTimeout(raffle, 30);
+        setTimeout(raffle, 20);
         if(document.getElementById(lastId) != null){
           if(document.getElementById(lastId).className != "gr rd"){
             document.getElementById(lastId).className = "gr";
@@ -57,12 +57,12 @@ $(document).ready(function () {
     nomore.push(lastId);
     document.getElementById(lastId).className = "gr rd";
   //  $("div#block").text("Block\xa0\xa0\xa0\xa0\xa0" + lastArray[0]);
-    $("span#block_left").text("Block");
-    $("span#block_right").text(lastArray[0]);
-    $("span#row_left").text("Reihe");
-    $("span#row_right").text(lastArray[1]);
-    $("span#column_left").text("Sitz");
-    $("span#column_right").text(lastArray[2]);
+    $("#block_left").text("Block");
+    $("#block_right").text(lastArray[0]);
+    $("#row_left").text("Reihe");
+    $("#row_right").text(lastArray[1]);
+    $("#column_left").text("Sitz");
+    $("#column_right").text(lastArray[2]);
   });
 
 });
