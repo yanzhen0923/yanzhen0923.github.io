@@ -6,6 +6,19 @@ ul{
 li{
   float: left;
 }
+html, body {
+    height: 100%;
+}
+
+html {
+    display: table;
+    margin: auto;
+}
+
+body {
+    display: table-cell;
+    vertical-align: middle;
+}
 .gr{
   width: 20px;
   height: 20px;
@@ -119,8 +132,9 @@ span{
 .container{
   margin: 0px;
   height: 700px;
-  width: 1266px;
+  width: 1350px;
   background-image: url('bg10.png');
+  background-size: 1350px 700px; 
   background-repeat:no-repeat;
 }
 .title{
