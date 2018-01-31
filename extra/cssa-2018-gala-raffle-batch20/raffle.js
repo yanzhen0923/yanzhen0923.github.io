@@ -4,8 +4,8 @@ var cur_num_winners = 0;
 var max_num_intervals = 50;
 var cur_num_intervals = 0;
 
-min = 0;
-max = 640;
+min = 1;
+max = 630;
 
 winner_set = new Set();
 
