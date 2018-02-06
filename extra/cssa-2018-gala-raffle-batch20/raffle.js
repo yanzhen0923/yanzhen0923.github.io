@@ -1,7 +1,7 @@
 var max_num_winners = 20;
 var cur_num_winners = 0;
 
-var max_num_intervals = 50;
+var max_num_intervals = 30;
 var cur_num_intervals = 0;
 
 min = 1;
