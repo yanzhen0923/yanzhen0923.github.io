@@ -20,8 +20,8 @@ body {
     vertical-align: middle;
 }
 .gr{
-  width: 21px;
-  height: 21px;
+  width: 26px;
+  height: 26px;
   line-height: 20px;
   background-color: #dddddd;
   border-radius: 3px;
@@ -131,10 +131,10 @@ span{
 
 .container{
   margin: 0px;
-  height: 700px;
-  width: 1350px;
+  height: 800px;
+  width: 1500px;
   background-image: url('bg10.png');
-  background-size: 1350px 700px;
+  background-size: 1500px 800px;
   background-repeat:no-repeat;
 }
 .title{
@@ -143,12 +143,12 @@ span{
 }
 .left{
   float: left;
-  width: 360px;
+  width: 410px;
   height: 700px;
 }
 .middle{
   float: left;
-  width: 710px;
+  width: 810px;
   height: 700px;
 }
 .right{
